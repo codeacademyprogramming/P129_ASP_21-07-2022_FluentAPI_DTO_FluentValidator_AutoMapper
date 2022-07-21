@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20220720065322_InitialCreate.cs" />
+    <Compile Remove="Data\Migrations\20220720065322_InitialCreate.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220720065708_CreatedCategoriesTabel.cs" />
+    <Compile Remove="Data\Migrations\20220720065708_CreatedCategoriesTabel.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220721052226_UpdatedCategoriesTableAddedConfiguration.cs" />
+    <Compile Remove="Data\Migrations\20220721052226_UpdatedCategoriesTableAddedConfiguration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220721052251_UpdatedCategoriesTableAddedConfiguration.cs" />
+    <Compile Remove="Data\Migrations\20220721052251_UpdatedCategoriesTableAddedConfiguration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220721052422_UpdatedCategoriesTableAddedConfiguration.cs" />
+    <Compile Remove="Data\Migrations\20220721052422_UpdatedCategoriesTableAddedConfiguration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220721052438_AddedCategoriesTableAddedConfiguration.cs" />
+    <Compile Remove="Data\Migrations\20220721052438_AddedCategoriesTableAddedConfiguration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220721052628_AddedCategoriesTableAddedConfiguration.cs" />
+    <Compile Remove="Data\Migrations\20220721052628_AddedCategoriesTableAddedConfiguration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220721052947_AddedBrandsTable.cs" />
+    <Compile Remove="Data\Migrations\20220721052947_AddedBrandsTable.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220721053057_AddedBrandsTable.cs" />
+    <Compile Remove="Data\Migrations\20220721053057_AddedBrandsTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.27">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
